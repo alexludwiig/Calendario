@@ -12,7 +12,7 @@ body{
   padding: 0 10px;
   justify-content: center;
   min-height: 100vh;
-  background: #9B59B6;
+  background: #ABD186;
 }
 .wrapper{
   width: 450px;
@@ -96,8 +96,35 @@ header .current-date{
   transform: translate(-50%, -50%);
 }
 .days li.active::before{
-  background: #9B59B6;
+  background: #ABD186;
 }
 .days li:not(.active):hover::before{
   background: #f2f2f2;
+}
+
+main{
+position: absolute;
+left: 0%;
+top: 0%;
+}
+
+.botonera {
+  background-color: #75A942;
+}
+
+.botonera ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.botonera ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.botonera ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
 }
