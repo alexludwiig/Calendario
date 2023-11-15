@@ -81,8 +81,19 @@ header .current-date{
 .days li.inactive{
   color: #aaa;
 }
-.days li.active{
-  color: #fff;
+.days li.active {
+  position: relative;
+}
+
+.days li.active span {
+  display: inline-block;
+  width: 30px; /* Ajusta según sea necesario */
+  height: 30px; /* Ajusta según sea necesario */
+  background-color:#75A942
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px; /* Ajusta según sea necesario */
+  color: white;
 }
 .days li::before{
   position: absolute;
